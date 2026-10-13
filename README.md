@@ -3,25 +3,7 @@
 一个用 three.js 做的可交互海底圣城：你可以浏览或第一人称漫游，荡秋千、听人鱼唱歌、
 翻开《潮汐之书》、点开藏在贝壳里的记忆、给河水换成落霞粉或极光色，还能和船上三只猫糕打招呼。
 
-## 部署到 GitHub Pages
 
-这是纯静态站点，没有构建步骤 —— 直接用仓库里的文件即可。
-
-1. 新建一个 GitHub 仓库，把本目录下的所有文件（`index.html`、`app.js`、`style.css`、
-   `book.js`、`pets.js`、`models/`、`photos/`、`vendor/`、两个 `.mp3`）推到仓库根目录。
-2. 仓库 **Settings → Pages**，Source 选 **Deploy from a branch**，分支选 `main`、目录选 `/ (root)`，保存。
-3. 等一两分钟，访问 `https://<你的用户名>.github.io/<仓库名>/` 即可。
-
-因为页面全部使用相对路径，放在仓库子目录（`/仓库名/`）下也能正常加载，无需改任何代码。
-
-### 本地预览
-
-直接双击 `index.html` 会因为浏览器的模块跨域策略打不开，请用任意静态服务器，例如：
-
-```bash
-python3 -m http.server 8000
-# 然后打开 http://localhost:8000/
-```
 
 ## 操作
 
